@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "name": "South Carolina"
+    },
+    {
+      "id": 2,
+      "name": " New York"
+    },
+    {
+      "id": 3,
+      "name": "California"
+    },
+    {
+      "id": 4,
+      "name": "Texas"
+    },
+    {
+      "id": 5,
+      "name": "Pennsylvania"
+    },
+    {
+      "id": 6,
+      "name": "Arizona"
+    },
+    {
+      "id": 7,
+      "name": "Florida"
+    },
+    {
+      "id": 8,
+      "name": "Indiana"
+    },
+    {
+      "id": 9,
+      "name": "Ohio"
+    },
+    {
+      "id": 10,
+      "name": "Michigan"
+    }
+  ],
+  "links": [
+
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 5
+    },
+    {
+      "source": 1,
+      "target": 6
+    },
+
+    {
+      "source": 2,
+      "target": 3
+    },
+            {
+      "source": 2,
+      "target": 7
+    }
+    ,
+
+    {
+      "source": 3,
+      "target": 4
+    },
+     {
+      "source": 8,
+      "target": 3
+    }
+    ,
+    {
+      "source": 4,
+      "target": 5
+    }
+    ,
+
+    {
+      "source": 4,
+      "target": 9
+    },
+    {
+      "source": 5,
+      "target": 10
+    }
+  ]
+}
